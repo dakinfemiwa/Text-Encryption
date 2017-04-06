@@ -1,0 +1,19 @@
+# Configuration file. - rstrip()
+# If this breaks, default one will be downloaded & used automatically.
+
+settings:
+  log:
+    show-log-tkinter: true
+    multi-colour: true
+    save: false
+  windows:
+    main:
+      size: 1300x700
+      title: Updater - SM
+      theme: dark
+
+programs:
+  weather:
+    allow-update: true
+    git: http://github.com/Test/test.git
+    main: Weather.py
